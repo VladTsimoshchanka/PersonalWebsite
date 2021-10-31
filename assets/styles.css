@@ -4,14 +4,16 @@ html {
 .main {
     width: 100%;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 2vw;
     display: grid;
-    grid-template-columns: 20% 70%;
+    grid-template-columns: 30% 70%;
+    align-items: stretch;
     
     
 }
 body {
-    padding-left: 20%;
+    
+    
 }
 #CloseButton {
     cursor: pointer;
@@ -63,6 +65,7 @@ body {
 .rightSide {
     max-width: 60%;
     max-height: 100%;
+    align-items: stretch;
 }
 .resume {
     align-self: flex-start;
@@ -89,7 +92,7 @@ body {
 
 .properBox {
     border: solid  2px gray;
-    border-radius: 3%;
+    border-radius: 5px;
     background-color:#f1eeee;
 }
 
@@ -128,8 +131,7 @@ body {
 .project {
     background-color: beige;
    border: 1px solid gray;
-   margin-left: 2%;
-   margin-right: 2%;
+   margin: 2%;
 }
 
 #projectImage > a > img {
@@ -141,10 +143,12 @@ body {
     width: 100%;
 }
 .links {
+    font-size: 1.5vw;
     width: 100%;
+    align-self:flex-end;
 }
 
 .miscellany {
-    width: 90%;
+    width: 100%;
     
 }

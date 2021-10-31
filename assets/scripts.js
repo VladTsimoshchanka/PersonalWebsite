@@ -1,9 +1,9 @@
-
+//Get the elements by ID's
 var openButton = document.getElementById("contactButton");
 var submitButton = document.getElementById("submitButton");
 var closeButton = document.getElementById("CloseButton");
 
-
+//Making all of the buttons responsive
 submitButton.addEventListener('click', () => {
     var menu = document.getElementById("contactMenu");
     closeMenu(menu);
@@ -21,7 +21,7 @@ closeButton.addEventListener('click', () => {
     var menu = document.getElementById("contactMenu");
     closeMenu(menu);
 })
-
+//Functions for the menus
 function openMenu(menu){
     if (menu == null){
         return;
